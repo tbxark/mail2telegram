@@ -35,7 +35,7 @@
         "@antfu/eslint-config": "^5.4.1",
         "@cloudflare/workers-types": "^4.20251008.0",
         "@types/html-to-text": "^9.0.4",
-        "esbuild": "^0.25.10",
+        "esbuild": "^0.28.1",
         "eslint": "^9.37.0",
         "eslint-plugin-format": "^1.0.2",
         "telegram-bot-api-types": "^9.2.0",
