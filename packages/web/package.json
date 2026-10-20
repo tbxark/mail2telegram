@@ -13,7 +13,7 @@
     "dependencies": {
         "@mail2telegram/shared": "workspace:*",
         "@tma.js/sdk-react": "^3.0.23",
-        "dompurify": "^3.4.15",
+        "dompurify": "^3.4.16",
         "konsta": "^5.4.0",
         "react": "^19.3.0",
         "react-dom": "^19.3.0",
