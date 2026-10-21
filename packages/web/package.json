@@ -13,7 +13,7 @@
     "dependencies": {
         "@mail2telegram/shared": "workspace:*",
         "@tma.js/sdk-react": "^3.0.23",
-        "dompurify": "^3.4.16",
+        "dompurify": "^3.4.17",
         "konsta": "^5.4.0",
         "react": "^19.3.0",
         "react-dom": "^19.3.0",
@@ -27,6 +27,6 @@
         "@vitejs/plugin-react": "^6.1.1",
         "puppeteer": "^25.11.0",
         "tailwindcss": "^4.3.3",
-        "vite": "^8.3.0"
+        "vite": "^8.3.3"
     }
 }
