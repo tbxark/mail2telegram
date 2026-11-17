@@ -39,8 +39,8 @@ importers:
         specifier: ^5.0.24
         version: 5.0.24
       postal-mime:
-        specifier: ^3.0.1
-        version: 3.0.1
+        specifier: ^4.0.8
+        version: 4.0.8
     devDependencies:
       '@cloudflare/vitest-pool-workers':
         specifier: ^0.22.0
@@ -1254,9 +1254,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@rolldown/pluginutils@1.0.1':
-    resolution: {integrity: sha512-2j9bGt5Jh8hj+vPtgzPtl72j0yRxHAyumoo6TNfAjsLB04UtpSvPbPcDcBMxz7n+9CYB0c1GxQFxYRg2jimqGw==}
-
   '@rolldown/pluginutils@1.1.1':
     resolution: {integrity: sha512-glFIJDvLNDtJhT9qrMFWLPbvS+skxgt4L0K8Ei2YtnhPysAJnsI7nyxSJxKj4ADeKX0OLjC4ntRkwpLOoS3rwA==}
 
@@ -1932,8 +1929,9 @@ packages:
     resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
     engines: {node: '>=12'}
 
-  postal-mime@3.0.1:
-    resolution: {integrity: sha512-N86EnYOxZjW1uHQIgSXnnRdnJz+wxmtDsnk3C4R/9rQ1utj8A2znauXZ3Q3+stCHxG5ckY4/NrO09WiPU6rcdQ==}
+  postal-mime@4.0.8:
+    resolution: {integrity: sha512-nnAgc4a9hn7zYuQmX4C7LU+fN47kR5S8cE8zvB/vZ2NimNDbaj+ISZJ9qe3CKIfn2uOTwwz4nQeIyljvdFNgOA==}
+    engines: {node: '>=20'}
 
   postcss@8.5.33:
     resolution: {integrity: sha512-RVHEU9/Pp1Fnjr/MpAJsZoADukCKhfIi15OunEYiGktIkYLkPVvC1sioWolGDS7XByMTx9m/IGbro0Js13zhnQ==}
@@ -2070,10 +2068,6 @@ packages:
     resolution: {integrity: sha512-9YodfrxS9g9IbFr/KOjE5bAeJ0p61n3bW6mqvy0jtoeKd1kTW1Cxm0oulm6KX2lyM9Gl6WIe8nEbY7LWv5ZJww==}
     engines: {node: ^20.0.0 || >=22.0.0}
 
-  tinyrainbow@3.1.1:
-    resolution: {integrity: sha512-yau8yJdTt989Mm0Bd/236QnzEiPf2xLLTqUZRUJOo/3CB078LSwzei343DgtJVmfJKJE3TMINY1u42SQsP6mXw==}
-    engines: {node: '>=14.0.0'}
-
   tinyrainbow@3.2.0:
     resolution: {integrity: sha512-LgO3D9yZJjApUiuUfl9iFAwrtaX4+lok3wJIqttGoKCHlWUqHqbQpnxCf82L8FjgKsh4iGo78hqJwgL8F6To2A==}
     engines: {node: '>=14.0.0'}
@@ -2081,9 +2075,6 @@ packages:
   tree-kill@1.2.2:
     resolution: {integrity: sha512-L0Orpi8qGpRG//Nd+H90vFB+3iHnue1zSSGmNOOCh1GLJ7rUKVwV2HvijphGQS2UmhUZewS9VgvxYIdgr+fG1A==}
     hasBin: true
-
-  tslib@2.8.1:
-    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   tslib@2.9.1:
     resolution: {integrity: sha512-a4Ux9VKuIMHsOS7ENbEq6hK2ZGYIT27Rtl0E4eD9KqwxhKiQeMZE/9xb3IdYwWaSOyIBQLExhQgXDTYoiCxnWA==}
@@ -2376,7 +2367,7 @@ snapshots:
   '@emnapi/core@2.0.0-beta.2':
     dependencies:
       '@emnapi/wasi-threads': 2.2.0
-      tslib: 2.8.1
+      tslib: 2.9.1
     optional: true
 
   '@emnapi/runtime@1.11.3':
@@ -2386,12 +2377,12 @@ snapshots:
 
   '@emnapi/runtime@2.0.0-beta.2':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
     optional: true
 
   '@emnapi/wasi-threads@2.2.0':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
     optional: true
 
   '@esbuild/aix-ppc64@0.28.1':
@@ -2976,8 +2967,6 @@ snapshots:
   '@rolldown/binding-win32-x64-msvc@1.2.19':
     optional: true
 
-  '@rolldown/pluginutils@1.0.1': {}
-
   '@rolldown/pluginutils@1.1.1': {}
 
   '@selderee/plugin-htmlparser2@0.12.0(selderee@0.12.0)':
@@ -3128,7 +3117,7 @@ snapshots:
 
   '@tybys/wasm-util@0.10.5':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.9.1
     optional: true
 
   '@types/chai@5.2.3':
@@ -3241,7 +3230,7 @@ snapshots:
 
   '@vitest/pretty-format@4.1.12':
     dependencies:
-      tinyrainbow: 3.1.1
+      tinyrainbow: 3.2.0
 
   '@vitest/runner@4.1.12':
     dependencies:
@@ -3261,7 +3250,7 @@ snapshots:
     dependencies:
       '@vitest/pretty-format': 4.1.12
       convert-source-map: 2.0.0
-      tinyrainbow: 3.1.1
+      tinyrainbow: 3.2.0
 
   ansi-regex@6.6.0: {}
 
@@ -3616,7 +3605,7 @@ snapshots:
 
   picomatch@4.0.7: {}
 
-  postal-mime@3.0.1: {}
+  postal-mime@4.0.8: {}
 
   postcss@8.5.33:
     dependencies:
@@ -3676,7 +3665,7 @@ snapshots:
   rolldown@1.2.19:
     dependencies:
       '@oxc-project/types': 0.156.0
-      '@rolldown/pluginutils': 1.0.1
+      '@rolldown/pluginutils': 1.1.1
     optionalDependencies:
       '@rolldown/binding-android-arm-eabi': 1.2.19
       '@rolldown/binding-android-arm64': 1.2.19
@@ -3819,14 +3808,9 @@ snapshots:
 
   tinypool@2.1.2: {}
 
-  tinyrainbow@3.1.1: {}
-
   tinyrainbow@3.2.0: {}
 
   tree-kill@1.2.2: {}
-
-  tslib@2.8.1:
-    optional: true
 
   tslib@2.9.1: {}
 
