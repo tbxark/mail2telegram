@@ -14,15 +14,15 @@
         "@tma.js/init-data-node": "^2.0.8",
         "html-to-text": "^10.0.1",
         "itty-router": "^5.0.24",
-        "postal-mime": "^3.0.0"
+        "postal-mime": "^3.0.1"
     },
     "devDependencies": {
         "@cloudflare/vitest-pool-workers": "^0.22.0",
-        "@cloudflare/workers-types": "^5.20260915.1",
+        "@cloudflare/workers-types": "^5.20261116.1",
         "@types/html-to-text": "^9.0.4",
-        "@types/node": "^22.20.2",
+        "@types/node": "^22.20.5",
         "telegram-bot-api-types": "^10.2.0",
-        "tsx": "^4.23.13",
-        "vitest": "^4.1.11"
+        "tsx": "^4.23.15",
+        "vitest": "^4.1.12"
     }
 }

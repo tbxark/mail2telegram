@@ -60,10 +60,10 @@
         "wrangler": "wrangler"
     },
     "devDependencies": {
-        "concurrently": "^10.0.5",
+        "concurrently": "^10.0.7",
         "oxfmt": "^0.67.0",
-        "oxlint": "^1.82.0",
+        "oxlint": "^1.93.0",
         "typescript": "^7.0.2",
-        "wrangler": "^4.131.2"
+        "wrangler": "^4.162.0"
     }
 }
