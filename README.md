@@ -84,7 +84,9 @@ Attachments need the whole message, so `Max Size` in **Mail Handling** has to be
 
 ### Retention
 
-Mail older than the retention setting is not part of the notification cache, but the full history remains until you delete it from the Mini App.
+By default, a daily cleanup job permanently deletes unstarred mail older than 7 days, including its attachments. Starred mail is excluded from automatic cleanup.
+
+To change the retention period, open **Settings → Mail Handling → Auto Cleanup (days)** in the Mini App. Set it to `0` to disable scheduled cleanup. The `AUTO_CLEANUP_DAYS` environment variable sets the default when no value has been saved in the Mini App.
 
 ## Development
 

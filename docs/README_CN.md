@@ -78,7 +78,9 @@ To   : [recipient]
 
 ### 保留策略
 
-超过保留时间设置的邮件不再作为通知缓存，但完整历史会一直保留，直到你在 Mini App 中删除。
+默认每天会自动清理超过 7 天的未加星标邮件，同时永久删除这些邮件及其附件。已加星标的邮件不受自动清理影响。
+
+在 Mini App 中打开 **Settings → Mail Handling → Auto Cleanup (days)**，即可调整保留天数；设为 `0` 可关闭定时清理。未在 Mini App 中保存该设置时，环境变量 `AUTO_CLEANUP_DAYS` 可指定默认天数。
 
 ## 开发
 
